@@ -1,0 +1,64 @@
+.wave1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.wave1 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* wave2 */
+.wave2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+}
+
+.wave2 .shape-fill {
+    fill: #fff;
+}
+
+/* wave3 */
+.custom-shape-divider-top-1641011728 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1641011728 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 201px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1641011728 .shape-fill {
+    fill: #000000;
+}
